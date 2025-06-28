@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": " /Users/prajithravisankar/Documents/personal/projects/mern/MERN-THINKBOARD/backend/src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js", 
-    "start": "node server.js"
+    "dev": "nodemon  /Users/prajithravisankar/Documents/personal/projects/mern/MERN-THINKBOARD/backend/src/server.js",
+    "start": "node /Users/prajithravisankar/Documents/personal/projects/mern/MERN-THINKBOARD/backend/src/server.js"
   },
   "type": "module",
   "keywords": [],
@@ -13,7 +13,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.14.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
